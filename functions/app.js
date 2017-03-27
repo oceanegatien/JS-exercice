@@ -34,9 +34,25 @@ console.log(nombre());
 function unknown(a, b) {
 	return a + b;
 }
-console.log(unknown("coucou ", 4));*/
+console.log(unknown("coucou ", 4));
 
 function presentationHuman(nom, prenom, age) {
 	return "Bonjour " + nom + prenom + ",tu as " + age + " ans";
 }
-console.log(presentationHuman('gatien ', 'oceane', 27));
+console.log(presentationHuman('gatien ', 'oceane', 27));*/
+
+function presentationHuman(age, genre) {
+	if(age>=18 && genre=="homme"){
+		return "Vous êtes un homme et vous êtes majeur";
+	}else if(age<18 && genre=="homme"){
+		return "Vous êtes un homme et vous êtes mineur";
+	}else if(age>=18 && genre=="femme"){
+		return "Vous êtes une femme et vous êtes majeur";
+	}else if(age<18 && genre=="femme"){
+		return "Vous êtes une femme et vous êtes mineur";
+	}
+}
+console.log(presentationHuman(17, "homme"));
+console.log(presentationHuman(19, "homme"));
+console.log(presentationHuman(17, "femme"));
+console.log(presentationHuman(19, "femme"));
