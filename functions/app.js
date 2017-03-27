@@ -14,7 +14,7 @@ function returnString(){
 	var string = "Hello" + " " + "World";
 	return string;
 };
-console.log(returnString());*/
+console.log(returnString());
 
 
 
@@ -29,4 +29,9 @@ function nombre(a, b) {
 }};
 var result = nombre(36, 44);
 
-console.log(nombre());
+console.log(nombre());*/
+
+function unknown(a, b) {
+	return a + b;
+}
+console.log(unknown("coucou ", 4));
