@@ -5,3 +5,7 @@ function returnTrue(){
 
 console.log(returnTrue());
 
+function hello(){
+	return 'Hello World'
+}
+console.log(hello());
