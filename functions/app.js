@@ -29,9 +29,14 @@ function nombre(a, b) {
 }};
 var result = nombre(36, 44);
 
-console.log(nombre());*/
+console.log(nombre());
 
 function unknown(a, b) {
 	return a + b;
 }
-console.log(unknown("coucou ", 4));
+console.log(unknown("coucou ", 4));*/
+
+function presentationHuman(nom, prenom, age) {
+	return "Bonjour " + nom + prenom + ",tu as " + age + " ans";
+}
+console.log(presentationHuman('gatien ', 'oceane', 27));
