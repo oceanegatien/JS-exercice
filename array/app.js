@@ -8,7 +8,10 @@ for (var i = 0; i < mois.length; i++) {
 
 array.push('Courgette');
 array[4].push('Citron');
-array.splice(3, 1);
 array.splice(1, 1);
 array.splice(2, 0, 'Poire')
 console.log(array);
+
+for (var i = 0; i < array.length; i++) {
+	console.log(array[i]);
+}
